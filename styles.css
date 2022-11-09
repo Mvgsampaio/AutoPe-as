@@ -74,6 +74,11 @@ nav{
 }
 
 
+.formulario{
+    display: block;
+    margin-top: 10px;
+}
+
 
 
 /*Css Footer*/
@@ -82,6 +87,8 @@ section#topo{
     height: 2vh;
     margin-top: 20px;
     text-align: center;
+    height: 30px;
+   
     
 
 }
@@ -90,7 +97,8 @@ section#topo{
 
     color: rgb(255, 255, 255);
     text-decoration: none;
-    
+    font-size: 18px;
+    font-size: bold;
 }
 
 #topo i{
@@ -99,25 +107,23 @@ section#topo{
 
 }
 
-footer{
-   /* background: linear-gradient(90deg, rgb(156, 159, 158) 0%,rgb(106, 107, 108) 35.52%, rgb(99, 99, 99) 75.52%, rgb(82, 83, 83), rgb(62, 63, 63) 100%);*/
-   background-color: #9999;
-    height: 10vh;
-    margin-top: 20px;
+
+.infofooter{
+    background-color: rgba(120, 120, 120, 0.861);
+    margin-bottom: -10px;
+    
 }
 
 footer p{
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: medium;
-    color: #050505;
+    color: #ffffff;
     text-align: center;
+
+    margin-bottom: 10px;
 }
 
-div.redesfooter  p{
-    display: inline-block;
-    text-align: justify;
-    font-size: medium;
-}
+
 
 /*Fim footer*/
 
@@ -126,16 +132,39 @@ div.redesfooter  p{
 
 .categorias{
     
-    background: rgb(12, 88, 120);
+   /* background: rgb(12, 88, 120);
     height: 3,5vh;
-    margin-left: 10px;
-    
+    margin-left: 10px;*/
+
+    background: rgb(1, 4, 51);
+    width: 80%;
+    margin-left: 10%;
+
 }
 
 .categorias h1{
     
     text-align: center;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: top 10px;
+    
+    
+}
+
+.promocao{
+
+    background: black;
+
+    margin-left: 100%;
+
+}
+
+.promocao h1{
+    
+    text-align: center;
+    color: #ac0a0a;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: top 10px;
@@ -273,6 +302,15 @@ ul#login a{
 
 section.maps{
    
-    margin-left: 650px;
-    margin-top: 250px;
+   margin-top: 174px;
+    
+}
+
+.localizacao__titulo h1{
+    text-align: center;
+    padding: 20px;
+    color: #453ef7;
+    font-size: 60px;
+
+    margin-top: 20px;
 }
